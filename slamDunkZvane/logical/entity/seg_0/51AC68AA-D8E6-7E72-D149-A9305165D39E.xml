@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51AC68AA-D8E6-7E72-D149-A9305165D39E" name="POVIJEST CIJENA">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:27:37 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="EA3A932D-A8C3-5BE3-F567-4D5F51DDB86C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>POV</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="datum_promjene" id="0FABE5FD-189E-52F0-B121-A365715D5094">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:28:04 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="EA3A932D-A8C3-5BE3-F567-4D5F51DDB86C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme_promjene" id="F53EBB84-1B5D-44F4-3F35-D658BBE6070E">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:28:46 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="EA3A932D-A8C3-5BE3-F567-4D5F51DDB86C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cijena" id="EB05A9CD-5D0B-D9F8-3537-356703A63119">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:29:02 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="EA3A932D-A8C3-5BE3-F567-4D5F51DDB86C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_isteka" id="263CE716-84C6-4E11-FCD4-942069B09D87">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:29:14 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="EA3A932D-A8C3-5BE3-F567-4D5F51DDB86C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme_isteka" id="4485EE75-C7CB-99AA-594F-B866021E3748">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:29:29 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="EA3A932D-A8C3-5BE3-F567-4D5F51DDB86C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_artikla" id="D678B43B-4013-9890-E7CD-2879F00BC223">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:44:52 UTC</createdTime>
+<generatorID>CF4D4417-4663-D8B4-3601-C4422C3C425D</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="EA3A932D-A8C3-5BE3-F567-4D5F51DDB86C" value="true"/>
+</engineerTo>
+<referedAttribute>779E5E61-7AF7-B2BB-F765-4771BF5973BA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DFF0AF3B-1AE4-FBCC-472C-1C49C7D445ED" name="POVIJEST CIJENA PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-11 11:28:44 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="EA3A932D-A8C3-5BE3-F567-4D5F51DDB86C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FABE5FD-189E-52F0-B121-A365715D5094</attributeRef>
+<attributeRef>F53EBB84-1B5D-44F4-3F35-D658BBE6070E</attributeRef>
+<attributeRef>D678B43B-4013-9890-E7CD-2879F00BC223</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
